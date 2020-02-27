@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TacitusLogger.Destinations.MongoDb", "TacitusLogger.Destinations.MongoDb\TacitusLogger.Destinations.MongoDb.csproj", "{4C0F1E46-323B-4523-9644-6EDF6D1F3C08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TacitusLogger.Destinations.MongoDb.IntegrationTests", "TacitusLogger.Destinations.MongoDb.IntegrationTests\TacitusLogger.Destinations.MongoDb.IntegrationTests.csproj", "{C4132B4C-52FE-4290-88D9-A42001CF07EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{58521B4D-94F3-48E4-8642-1B97FEC47C20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TacitusLogger.Destinations.MongoDb.UnitTests", "TacitusLogger.Destinations.MongoDb.UnitTests\TacitusLogger.Destinations.MongoDb.UnitTests.csproj", "{4E622F90-07CF-4857-BD17-00014CD703BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C0F1E46-323B-4523-9644-6EDF6D1F3C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0F1E46-323B-4523-9644-6EDF6D1F3C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0F1E46-323B-4523-9644-6EDF6D1F3C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0F1E46-323B-4523-9644-6EDF6D1F3C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4132B4C-52FE-4290-88D9-A42001CF07EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4132B4C-52FE-4290-88D9-A42001CF07EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4132B4C-52FE-4290-88D9-A42001CF07EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4132B4C-52FE-4290-88D9-A42001CF07EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E622F90-07CF-4857-BD17-00014CD703BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E622F90-07CF-4857-BD17-00014CD703BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E622F90-07CF-4857-BD17-00014CD703BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E622F90-07CF-4857-BD17-00014CD703BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4132B4C-52FE-4290-88D9-A42001CF07EC} = {58521B4D-94F3-48E4-8642-1B97FEC47C20}
+		{4E622F90-07CF-4857-BD17-00014CD703BB} = {58521B4D-94F3-48E4-8642-1B97FEC47C20}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B93F6458-5B3D-4A61-B009-3C7001A93194}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+{
+  "mongoConnString": "your test mongo connection string",
+  "mongoDatabase": "your test mongo database"
+}
