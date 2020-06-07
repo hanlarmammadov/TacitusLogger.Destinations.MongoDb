@@ -37,7 +37,7 @@ namespace TacitusLogger.Destinations.MongoDb
         public Dictionary<LogType, IMongoCollection<BsonDocument>> Dictionary => _dictionary;
 
         /// <summary>
-        /// Retrives the according collection using input data.
+        /// Retrieves the according collection using input data.
         /// </summary>
         /// <param name="logModel"></param>
         /// <returns>Resulting Mongo collection.</returns>
