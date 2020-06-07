@@ -2,13 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.5</TargetFramework>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>TacitusLogger.Destinations.MongoDb</PackageId>
     <Authors>Khanlar Mammadov</Authors> 
     <Product>TacitusLogger.Destinations.MongoDb</Product>
     <AssemblyName>TacitusLogger.Destinations.MongoDb</AssemblyName>
     <RootNamespace>TacitusLogger.Destinations.MongoDb</RootNamespace>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <Description>Extension destination for TacitusLogger that sends logs to MongoDb database.
+Attention: TacitusLogger.Destinations.MongoDb is currently in Alpha phase. This means you should not use it in any production code.</Description>
+    <PackageProjectUrl>https://github.com/khanlarmammadov/TacitusLogger.Destinations.MongoDb</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/khanlarmammadov/TacitusLogger.Destinations.MongoDb</RepositoryUrl>
+    <PackageReleaseNotes>Attention: TacitusLogger.Destinations.MongoDb is currently in Alpha phase. This means you should not use it in any production code.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.5\TacitusLogger.Destinations.MongoDb.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
